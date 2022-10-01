@@ -1,6 +1,6 @@
 # sf-land 
 
-Welcome to the VS Code Extension - sf-land!
+## Welcome to the VS Code Extension - sf-land!
 
 - [Install sf-land ](https://marketplace.visualstudio.com/items?itemName=mohanChinnappan.sf-land)
 
@@ -43,11 +43,10 @@ Welcome to the VS Code Extension - sf-land!
 - Demo
 - ![PMD Report Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/new_pmd-report-1.gif)
 
+---
 #### Stay tune... More coming
-
-**Enjoy!**
 ---
 
-
+**Enjoy!**
 - Built by [Mohan Chinnappan](https://www.linkedin.com/in/mohan-chinnappan-232ab632/) with ♥
 
