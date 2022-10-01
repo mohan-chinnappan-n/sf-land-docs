@@ -16,6 +16,9 @@
 ### i18n
 - [Translate Using Google Translate](#gtranslate)
 
+### Word Cloud
+- [Draw Word Cloud](#word-cloud)
+
 ---
 
 <a name='login1'></a>
@@ -51,6 +54,14 @@
 <a name='gtranslate'></a>
 ### SF-LAND Google Translate
 - Translate the current editor text using Google Translate 
+
+
+<a name='word-cloud'></a>
+### SF-LAND Draw Word Cloud"
+- Draws Word Cloud for  the current editor text
+![WC-1](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/sf-land-wc-1.png)
+
+
 
 
 
