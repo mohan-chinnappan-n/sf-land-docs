@@ -6,12 +6,12 @@ Welcome to the VS Code Extension - sf-land!
 
 ## Features
 ### Salesforce specific - Login required
-- 1. [Login into Salesforce and create an Auth JSON file](#login1)
-- 2. [Login with Auth JSON File](#login2)
-- 3. [Runs a given SOQL and provides results output in HTML](#sfquery)
+-  [Login into Salesforce and create an Auth JSON file](#login1)
+-  [Login with Auth JSON File](#login2)
+-  [Runs a given SOQL and provides results output in HTML](#sfquery)
 
 ### Code Scan (Salesforce Login not required)
-- 1. [Runs PMD Scan](#pmdscan)
+-  [Runs PMD Scan](#pmdscan)
 
 
 <a name='login1'></a>
@@ -26,7 +26,15 @@ Welcome to the VS Code Extension - sf-land!
 <a name='sfquery'></a>
 ### SF-LAND Run SOQL Query
 - Runs a given SOQL and provides results output in HTML
+![query results](img/sf-land-query-results-1.png)
 
+
+<a name='sflimits'></a>
+### SF-LAND Run Org Limits
+-  Display Limits info in your org
+![limits results](img/sf-land-org-limits-1.png)
+
+---
 <a name='pmdscan'></a>
 ### SF-LAND Run PM Scan
 - Runs PMD Scan
