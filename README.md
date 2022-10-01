@@ -26,13 +26,13 @@
 <a name='sfquery'></a>
 ### SF-LAND Run SOQL Query
 - Runs a given SOQL and provides results output in HTML
-![query results](img/sf-land-query-results-1.png)
+![query results](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-query-results-1.png)
 
 
 <a name='sflimits'></a>
 ### SF-LAND Run Org Limits
 -  Display Limits info in your org
-![limits results](img/sf-land-org-limits-1.png)
+![limits results](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-org-limits-1.png)
 
 ---
 <a name='pmdscan'></a>
@@ -42,9 +42,8 @@
 
 - Demo
 - ![PMD Report Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/new_pmd-report-1.gif)
-
 ---
-#### Stay tune... More coming
+#### Stay tuned... More coming...
 ---
 
 **Enjoy!**
