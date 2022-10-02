@@ -19,6 +19,13 @@
 ### Word Cloud
 - [Draw Word Cloud](#wordcloud)
 
+
+### GraphViz
+- [Draw GraphViz Graph](#gviz)
+
+### REST client
+- [Rest Client for Salesforce and Generic](#restc)
+
 ---
 
 <a name='login1'></a>
@@ -57,14 +64,30 @@
 
 
 <a name='wordcloud'></a>
-### SF-LAND Draw Word Cloud"
+### SF-LAND Draw Word Cloud
 - Draws Word Cloud for  the current editor text
 ![WC-1](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-wc-1.png)
 
+<a name='gviz'></a>
+### SF-LAND Draw graphViz graph
+- Draws graphViz graph for the current editor text
+![WC-1](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-graphviz-1.png)
+
+<a name='restc'></a>
+### SF-LAND REST Client
+- input
+```json
+{
+    "method": "SFGET",
+    "url":  "sobjects/Opportunity/describe"
+}
+```
+- Response will be rendered in a VS Code window
+![Demo restc](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-restc-1.webm.gif)
 
 
 
-
+---
 #### Stay tuned... More coming...
 ---
 
