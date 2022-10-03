@@ -1,6 +1,6 @@
 # SF-LAND
 
-## Welcome to the VS Code Extension - sf-land!
+## Welcome to the VS Code Extension - SF-LAND!
 
 - [Install sf-land ](https://marketplace.visualstudio.com/items?itemName=mohanChinnappan.sf-land)
 
@@ -10,6 +10,7 @@
 -  [Login with Auth JSON File](#login2)
 -  [Runs a given SOQL and provides results output in HTML](#sfquery)
     - [Select SOQL Query](#sfquery)
+-  [Run anonymous Apex](#anonapex)
 
 ### Code Scan (Salesforce Login not required)
 -  [Runs PMD Scan](#pmdscan)
@@ -46,6 +47,9 @@
 ![query results](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-query-results-1.png)
 ![query results - 2](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-query-results-2.png)
 
+<a name='anonapex'></a>
+### SF-LAND: Run Anonymous Apex
+- Runs the Anonymous Apex in the editor 
 
 <a name='sflimits'></a>
 ### SF-LAND: Run Org Limits
@@ -57,6 +61,8 @@
 ### SF-LAND: Run PM Scan
 - Runs PMD Scan
     - Setup PMD executable as per this [Doc](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/pmd-codescan.md)
+- Also you can run PMD scan on the current file in the editor
+    - using **SF-LAND: Run PM Scan for File in the Editor**
 
 - Demo
 - ![PMD Report Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/new_pmd-report-1.gif)
