@@ -29,6 +29,10 @@
 - [Select REST Resource](#restc)
 - [Rest Client for Salesforce and Generic](#restc)
 
+### More Demos
+- [Named Credentials](#demo1)
+
+
 ---
 
 <a name='login1'></a>
@@ -43,6 +47,7 @@
 <a name='sfquery'></a>
 ### SF-LAND: Run SOQL Query
 - Runs a given SOQL and provides results output in HTML
+    - Select **Tooling** to use Tooling query
     - You can select a SOQL from standard list using **SF-LAND: Select SOQL Query**
 ![query results](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-query-results-1.png)
 ![query results - 2](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-query-results-2.png)
@@ -97,7 +102,13 @@
 - Response will be rendered in a VS Code window
 ![Demo restc](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-restc-1.webm.gif)
 
+---
 
+
+### More Demos
+<a name='demo-1'></a>
+- Named  Credentials 
+- ![Demo - Named Cred](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-demo-named-cred-1.webm.gif)
 
 ---
 #### Stay tuned... More coming...
