@@ -29,8 +29,18 @@
 - [Select REST Resource](#restc)
 - [Rest Client for Salesforce and Generic](#restc)
 
+### Crypto features
+- [Get JWT](#jwtget)
+- [Verify JWT](#jwtverify)
+
+### Doc features
+- [Markdown to HTML Page](#md2html)
+ 
+
 ### More Demos
 - [Named Credentials](#demo1)
+
+
 
 
 ---
@@ -102,6 +112,51 @@
 - Response will be rendered in a VS Code window
 ![Demo restc](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-restc-1.webm.gif)
 
+---
+<a name='md2html'><a>
+
+### SF-LAND: Render Markdown in Editor as Webpage
+
+- Renders a Markdown document in the editor to html page
+
+---
+
+<a name='jwtget'></a>
+### SF-LAND:SECURITY: Create JWT
+
+- input
+```json
+{
+  "payload": { "user": "Dennis Ritchie"},
+  "expiresIn": 3
+
+}
+```
+
+- JWT
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRGVubmlzIFJpdGNoaWUiLCJpYXQiOjE2NjQ5MjUzODQsImV4cCI6MzMyOTg1MDc3MX0.dEjtntdJ5anLHh8A1w8n24UBkejVeMy-c9Wru-PsMNw
+
+```
+
+
+<a name='jwtverify'></a>
+### SF-LAND:SECURITY: Verify JWT
+
+- input
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRGVubmlzIFJpdGNoaWUiLCJpYXQiOjE2NjQ5MjUzODQsImV4cCI6MzMyOTg1MDc3MX0.dEjtntdJ5anLHh8A1w8n24UBkejVeMy-c9Wru-PsMNw
+```
+
+- output
+```json
+{
+    "user": "Dennis Ritchie",
+    "iat": 1664925384,
+    "exp": 3329850771
+}
+
+```
 ---
 
 
