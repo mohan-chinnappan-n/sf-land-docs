@@ -177,6 +177,11 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRGVubmlzIFJpdGNoaWUiLCJpYXQiOjE
 <a name='lwccodegen'></a>
 ### LWC Code gen
 - SF-LAND: Generate LWC for SOQL Query
+- For the Given Single Object based SOQL:
+```sql
+SELECT Id, Name, Amount FROM Opportunity
+```
+
 ![LWC code gen](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-lwc-codegen-1.png)
 
 
