@@ -15,6 +15,8 @@
 
 ### Code Scan (Salesforce Login not required)
 -  [Runs PMD Scan](#pmdscan)
+### LWC Code Gen
+- [Create LWC for the given SOQL](#lwc-code-gen)
 
 ### i18n
 - [Translate Using Google Translate](#gtranslate)
@@ -170,6 +172,13 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRGVubmlzIFJpdGNoaWUiLCJpYXQiOjE
 
 ```
 ---
+
+<a name='lwc-code-gen'></a>
+### LWC Code gen
+- SF-LAND: Generate LWC for SOQL Query
+![LWC code gen](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-lwc-codegen-1.png)
+
+
 
 
 ### More Demos
