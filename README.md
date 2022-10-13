@@ -25,6 +25,9 @@
 ### Word Cloud
 - [Draw Word Cloud](#wordcloud)
 
+### Pie Chart
+- [Draw Pie Chart](#drawpie)
+
 
 ### GraphViz
 - [Draw GraphViz Graph](#gviz)
@@ -184,6 +187,24 @@ SELECT Id, Name, Amount FROM Opportunity
 
 ![LWC code gen](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-lwc-codegen-1.png)
 
+---
+<a name='drawpie'></a>
+### Draw Pie Chart
+- SF-LAND: Draw Pie Chart 
+- Sample data file in the editor
+```
+{
+    "title": "Fruits Yield",
+    "name": "Yield",
+    "data": [{ "Mango": 40 },
+    { "Peach": 10 },
+    { "Pear": 5 },
+    { "Plum": 8 },
+    { "Apple": 20 }
+    ]
+}
+```
+- ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-draw-pie-1.webm.gif)
 
 
 
