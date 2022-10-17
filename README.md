@@ -13,11 +13,16 @@
 -  [Run anonymous Apex](#anonapex)
 - [List Fields for SObject](#fieldList)
 
+- [Delete Metadata](#deleteMetadata)
+
 ### Code Scan (Salesforce Login not required)
 -  [Runs PMD Scan](#pmdscan)
 
 ### LWC Code Gen (Salesforce Login not required)
 - [Create LWC for the given SOQL](#lwccodegen)
+
+### Provide datatable view for a JSON node in the editor
+- [Render datatable](#datatable1)
 
 ### i18n
 - [Translate Using Google Translate](#gtranslate)
@@ -206,6 +211,31 @@ SELECT Id, Name, Amount FROM Opportunity
 ```
 - ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-draw-pie-1.webm.gif)
 
+---
+
+<a name='datatable1'></a>
+### Render Datatable
+- SF-LAND: Render Selected JSON Node in Datatable"
+- Sample data file in the editor
+```
+{
+  "title": "Fruits",
+
+  "data": [
+    { "Name": "Mango", "qty": 2000, "goodQuality": true },
+    { "Name": "Apple", "qty": 3000, "goodQuality": true },
+    { "Name": "Pear", "qty": 500, "goodQuality": true },
+    { "Name": "Peach", "qty": 4000, "goodQuality": true }
+  ]
+}
+
+```
+- ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-datatable-1.webm.gif)
+---
+
+<a name='deleteMetadata'></a>
+### Delete Metadata
+![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/deleteMetadata-1.gif)
 
 
 ### More Demos
