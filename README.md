@@ -14,6 +14,7 @@
 - [List Fields for SObject](#fieldList)
 
 - [Delete Metadata](#deleteMetadata)
+- [Load and Delete](#bulk2)
 
 ### Code Scan (Salesforce Login not required)
 -  [Runs PMD Scan](#pmdscan)
@@ -58,35 +59,35 @@
 ---
 
 <a name='login1'></a>
-### SF-LAND: Login into Salesforce to get Auth File
+### SFL: Login into Salesforce to get Auth File
 - Login into Salesforce and create an Auth JSON file
     - Uses SFDX for this operation
 
 <a name='login2'></a>
-### SF-LAND: Login with Auth JSON File
+### SFL: Login with Auth JSON File
 - Login into the Salesforce Org with the given Auth JSON file
 
 <a name='sfquery'></a>
-### SF-LAND: Run SOQL Query
+### SFL: Run SOQL Query
 - Runs a given SOQL and provides results output in HTML
     - Select **Tooling** to use Tooling query
-    - You can select a SOQL from standard list using **SF-LAND: Select SOQL Query**
+    - You can select a SOQL from standard list using **SFL: Select SOQL Query**
 ![query results](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-query-results-1.png)
 ![query results - 2](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-query-results-2.png)
 
 <a name='anonapex'></a>
-### SF-LAND: Run Anonymous Apex
+### SFL: Run Anonymous Apex
 - Runs the Anonymous Apex in the editor 
 
 <a name='sflimits'></a>
-### SF-LAND: Run Org Limits
+### SFL: Run Org Limits
 -  Display Limits info in your org
 ![limits results](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-org-limits-1.png)
 
 ---
 
 <a name='fieldList'></a>
-### SF-LAND: List Fields for SObject
+### SFL: List Fields for SObject
 
 ![Demo field list](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-list-fields-1.png)
 
@@ -95,35 +96,63 @@
 ![Demo Field Usage](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-fieldusage-demo-1.webm.gif)
 
 ---
+<a name='bulk2'></a>
+
+### SFL: Load Data Using Bulk2
+
+```
+cat /tmp/case2.csv
+
+Subject,Priority
+Automobile having fuel issues,High
+Automobile Auto-Pilot has input error,High
+
+```
+
+
+---
+
+### SFL: Delete Data Using Bulk2 
+
+```
+cat /tmp/case2_del.csv
+
+Id
+5004x00000KdRUWAA3
+5004x00000KdRUXAA3
+
+![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sfl-bulk2-load-delete.webm.gif)
+
+
 <a name='pmdscan'></a>
-### SF-LAND: Run PM Scan
+### SFL: Run PM Scan
 - Runs PMD Scan
     - Setup PMD executable as per this [Doc](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/pmd-codescan.md)
 - Also you can run PMD scan on the current file in the editor
-    - using **SF-LAND: Run PM Scan for File in the Editor**
+    - using **SFL: Run PM Scan for File in the Editor**
 
 - Demo
 - ![PMD Report Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/new_pmd-report-1.gif)
 ---
 <a name='gtranslate'></a>
-### SF-LAND: Google Translate
+### SFL: Google Translate
 - Translate the current editor text using Google Translate 
 
 
 <a name='wordcloud'></a>
-### SF-LAND: Draw Word Cloud
+### SFL: Draw Word Cloud
 - Draws Word Cloud for  the current editor text
 ![WC-1](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-wc-1.png)
 
 <a name='gviz'></a>
-### SF-LAND: Draw graphViz graph
+### SFL: Draw graphViz graph
 - Draws graphViz graph for the current editor text
 ![WC-1](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-graphviz-1.png)
 
 <a name='restc'></a>
-### SF-LAND: REST Client
+### SFL: REST Client
 
-- You can run **SF-LAND: Select REST Resource** to select from list of standard REST resources
+- You can run **SFL: Select REST Resource** to select from list of standard REST resources
 
 - input
 ```json
@@ -138,14 +167,14 @@
 ---
 <a name='md2html'><a>
 
-### SF-LAND: Render Markdown in Editor as Webpage
+### SFL: Render Markdown in Editor as Webpage
 
 - Renders a Markdown document in the editor to html page
 
 ---
 
 <a name='jwtget'></a>
-### SF-LAND:SECURITY: Create JWT
+### SFL:SECURITY: Create JWT
 
 - input
 ```json
@@ -164,7 +193,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRGVubmlzIFJpdGNoaWUiLCJpYXQiOjE
 
 
 <a name='jwtverify'></a>
-### SF-LAND:SECURITY: Verify JWT
+### SFL:SECURITY: Verify JWT
 
 - input
 ```
@@ -184,7 +213,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRGVubmlzIFJpdGNoaWUiLCJpYXQiOjE
 
 <a name='lwccodegen'></a>
 ### LWC Code gen
-- SF-LAND: Generate LWC for SOQL Query
+- SFL: Generate LWC for SOQL Query
 - For the Given Single Object based SOQL:
 ```sql
 SELECT Id, Name, Amount FROM Opportunity
@@ -195,7 +224,7 @@ SELECT Id, Name, Amount FROM Opportunity
 ---
 <a name='drawpie'></a>
 ### Draw Pie Chart
-- SF-LAND: Draw Pie Chart 
+- SFL: Draw Pie Chart 
 - Sample data file in the editor
 ```
 {
@@ -215,7 +244,7 @@ SELECT Id, Name, Amount FROM Opportunity
 
 <a name='datatable1'></a>
 ### Render Datatable
-- SF-LAND: Render Selected JSON Node in Datatable"
+- SFL: Render Selected JSON Node in Datatable"
 - Sample data file in the editor
 ```
 {
