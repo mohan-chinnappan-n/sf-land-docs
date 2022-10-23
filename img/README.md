@@ -133,13 +133,13 @@ Id
     - using **SFL: Run PM Scan for File in the Editor**
 
 - Demo
-- ![PMD Report Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/new_pmd-report-1.gif)
+- ![PMD Report Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/new_pmd-report-1.gif)
 ---
 <a name='gtranslate'></a>
 ### SFL: Google Translate
 - Translate the current editor text using Google Translate 
 
-- ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/gt-1.webm.gif)
+- ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/gt-1.webm.gif)
 
 
 <a name='wordcloud'></a>
