@@ -98,7 +98,7 @@
 ---
 <a name='bulk2'></a>
 
-### SFL: Load Data Using Bulk2
+### SFL: Load Data Using BulkAPI 2.0
 
 ```
 cat /tmp/case2.csv
@@ -112,7 +112,7 @@ Automobile Auto-Pilot has input error,High
 
 ---
 
-### SFL: Delete Data Using Bulk2 
+### SFL: Delete Data Using BulkAPI 2.0
 
 ```
 cat /tmp/case2_del.csv
