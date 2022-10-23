@@ -126,7 +126,7 @@ Id
 
 
 <a name='pmdscan'></a>
-### SFL: Run PM Scan
+### SFL: Run PMD Scan
 - Runs PMD Scan
     - Setup PMD executable as per this [Doc](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/pmd-codescan.md)
 - Also you can run PMD scan on the current file in the editor
