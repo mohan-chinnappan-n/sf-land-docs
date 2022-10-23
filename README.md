@@ -139,7 +139,7 @@ Id
 ### SFL: Google Translate
 - Translate the current editor text using Google Translate 
 
-- ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/kural-docs/master/img/gt-1.webm.gif)
+- ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/gt-1.webm.gif)
 
 
 <a name='wordcloud'></a>
