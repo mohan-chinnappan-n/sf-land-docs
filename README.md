@@ -120,6 +120,7 @@ cat /tmp/case2_del.csv
 Id
 5004x00000KdRUWAA3
 5004x00000KdRUXAA3
+```
 
 ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sfl-bulk2-load-delete.webm.gif)
 
