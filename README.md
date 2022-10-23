@@ -14,7 +14,7 @@
 - [List Fields for SObject](#fieldList)
 
 - [Delete Metadata](#deleteMetadata)
-- [Load and Delete](#bulk2)
+- [Load and Delete Using BulkAPI 2.0](#bulk2)
 
 ### Code Scan (Salesforce Login not required)
 -  [Runs PMD Scan](#pmdscan)
