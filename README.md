@@ -1,9 +1,9 @@
-# SF-LAND
+# SF Land
 
-
+![logo](https://mohanchinnappan.gallerycdn.vsassets.io/extensions/mohanchinnappan/sf-land/0.0.46/1670947555426/Microsoft.VisualStudio.Services.Icons.Default)
 ## Welcome to the VS Code Extension - SF-LAND!
 
-- [Install sf-land ](https://marketplace.visualstudio.com/items?itemName=mohanChinnappan.sf-land)
+### [Install sf-land from Visual Studio MarketPlace](https://marketplace.visualstudio.com/items?itemName=mohanChinnappan.sf-land)
 
 
 ## Features
@@ -26,6 +26,13 @@
 
 ### Provide datatable view for a JSON node in the editor
 - [Render datatable](#datatable1)
+
+### Provide datatable view for a CSV File in the editor
+- [Render CSV in  datatable](#datatableCSV)
+
+### Render JSON in the Editor as Bar Chart
+- [Render JSON in the editor as Bar Chart](#jsonbar)
+
 
 ### i18n
 - [Translate Using Google Translate](#gtranslate)
@@ -264,6 +271,21 @@ SELECT Id, Name, Amount FROM Opportunity
 ```
 - ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-datatable-1.webm.gif)
 ---
+<a name='datatableCSV'></a>
+ ## Render CSV in  datatable
+
+ - ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-datatable-csv.webm.gif)
+
+---
+
+---
+<a name='jsonbar'></a>
+ ## Render JSON in the Editor as Bar Chart
+
+ - ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/sf-land-docs/master/img/sf-land-json-bar-1.webm.gif)
+
+---
+
 
 <a name='deleteMetadata'></a>
 ### Delete Metadata
